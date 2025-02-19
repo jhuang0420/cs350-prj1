@@ -7,10 +7,10 @@
    REMEMBER to disable the stub functions (by commenting the following macro) to 
    allow your implementation to work properly. */
 
-#define STUB_FUNCS
-#ifdef STUB_FUNCS
-void mkdir2(char * d1, char* d2) {}
-#endif
+// #define STUB_FUNCS
+// #ifdef STUB_FUNCS
+// void mkdir2(char * d1, char* d2) {}
+// #endif
 
 
 /* IMPORTANT INSTRUCTION: the code below should not be changed. 
@@ -21,7 +21,7 @@ int
 main(int argc, char * argv[])
 {    
     if(argc != 3){
-        printf(1, "Please provid the names of two directories to create");
+        printf(1, "Please provide the names of two directories to create");
     }
 
 	mkdir2(argv[1], argv[2]);
