@@ -110,7 +110,7 @@ sys_uptime(void)
 
 //Custom syscall to perform factorial by Samruddhi Deshpande
 int
-sys_factorial(void)
+sys_fact(void)
 {
   int n;
   if(argint(0, &n) < 0)
