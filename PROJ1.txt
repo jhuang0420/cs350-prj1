@@ -1,8 +1,10 @@
 CS350 Group 3 
 
 Brendan Bulger: 
-Status:  
+Status: Complete
 Description: 
+ - Implemented shutdown2
+ - Also implemented uptime2 for practice 
 
 Samruddhi Deshpande:
 Status: Complete
@@ -18,6 +20,7 @@ Description:
               Factorial of 5 is 120
 
 Jeffrey Huang: mkdir2()
-Status: complete
+Status: Complete
 Description:
+ - Implemented mkdir2
 
