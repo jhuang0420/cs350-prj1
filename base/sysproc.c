@@ -108,3 +108,17 @@ sys_uptime(void)
   return xticks;
 }
 
+//Custom syscall to perform factorial by Samruddhi Deshpande
+int
+sys_factorial(void)
+{
+  int n;
+  if(argint(0, &n) < 0)
+    return -1;
+
+  int result = 1;
+  for (int i = 1; i <= n; i++) {
+      result *= i;
+  }
+  return result;
+}
