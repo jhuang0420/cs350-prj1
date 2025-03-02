@@ -27,6 +27,18 @@ sys_exit(void)
 }
 
 int
+sys_exit2(void)
+{
+  int status;
+
+  if(argint(0, &status) < 0)
+    return -1;
+  cprintf("Process %d exiting with status %d\n", myproc()->pid, status);
+  exit();
+  return 0;  // not reached
+}
+
+int
 sys_wait(void)
 {
   return wait();
